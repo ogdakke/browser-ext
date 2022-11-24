@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "LeadsTracker",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "clipboardWrite",
+        "clipboardRead"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "dakkephone@gmail.com"
+        }
+      }
+}
